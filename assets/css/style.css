@@ -5,13 +5,21 @@
     box-sizing: border-box;
 }
 
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: #3a3a3a;
+}
+
 /* Header */
 header {
     background-color: lightcoral;
 }
 /* Main */
 main {
-    background-color: lightcoral;
+    background-color: rgb(62, 34, 187);
+    flex: 1 0 auto;
 }
 /* Footer */
 footer {
